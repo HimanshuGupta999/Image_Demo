@@ -1,0 +1,18 @@
+Description:
+Automate Test Cases associated with Image Upload. 
+
+Guidelines: 
+Intellij should be used as an IDE.
+ Selenium 4 will be used 
+All the data inputs should be feeded from an external file data. 
+Page object model design pattern should be there. 
+Following Common exceptions should be handle properly:                 
+* Webdriver Exception                 * NoSuchElementException                 
+*ElementNotVisibleException         * TimeoutException                      *StaleElementReferenceException 
+Take a screenshot when a test failed. 
+Tests should be executed on Chrome and Firefox browsers. 
+It should have proper assertions.
+Tests should be executed in headless browser. 
+Tests should be executed from linux terminal from mvn command. (Should -not execute from intellij) 
+Proper wait should be there no thread.sleep should be used. 
+Add README file as well.
