@@ -87,7 +87,7 @@ public class fileupload {
                         + actualErrorMessage + "\nExpected: "
                         + expectedErrorMessage);
         System.out.print("Success");
-        driver.close();
+        driver.quit();
     }
 
     //For Headless
